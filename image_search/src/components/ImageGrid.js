@@ -1,14 +1,13 @@
 import React from 'react';
+import ImageCard from './ImageCard';
+import './ImageGrid.css'
 
 function ImageGrid(props) {
-    //console.log(props.data);
-
     return(
         <div>
-            <h1>Hello World</h1>
             <ul>
                 {props.data.map(data => {
-                    return <li key={data.id}>{data.image}</li>
+                    return <ImageCard key={data.id} data={data} />
                 })}
             </ul>
         </div>

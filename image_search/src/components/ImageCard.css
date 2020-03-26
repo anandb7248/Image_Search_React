@@ -1,0 +1,16 @@
+.container-card {
+    border: gray solid;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.image-title{
+    color: white;
+    text-decoration: underline;
+}
+
+.image-card {
+    width: 50%;
+    border-radius: 10px;
+}
