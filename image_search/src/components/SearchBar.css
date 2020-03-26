@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+}
+
+.search-bar {
+    height: 30px;
+    width: 75%;
+    text-align: center;
+    border: gray solid;
+    border-radius: 10px;
+}
